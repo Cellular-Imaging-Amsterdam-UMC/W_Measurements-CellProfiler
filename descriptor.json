@@ -1,6 +1,6 @@
 {
   "name": "Measurements-CellProfiler",
-  "description": "Workflow for Measurements in CellProfiler",
+  "description": "Extracts full morphology and intensity measurements from 2D fluorescence images using CellProfiler 4.2.6. Requires three pre-segmented greyscale mask images per input image: a Nuclei mask, a Cell mask, and an Aggregates/Foci mask. Produces per-object CSV tables covering shape, size, texture, and intensity features for each detected nucleus, cell, and aggregate. Suitable for studies relating foci/aggregate counts and intensities back to parent cells and nuclei. Configure mask filename suffixes to match your data and specify which fluorescence channels to measure.",
   "container-image": {
     "image": "cellularimagingcf/w_measurements-cellprofiler",
     "type": "singularity"
